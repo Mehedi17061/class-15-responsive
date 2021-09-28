@@ -4,7 +4,7 @@
 }
 
 .container-section{
-    width: 1400px;
+    max-width: 1365px;
     margin: auto;
    
 }
@@ -101,7 +101,7 @@
     color: #B0B0B0;
 }
 .service-section .service .group{
-    width: 22%;
+    width: 21%;
     display: inline-block;
     padding: -2px;
     margin: 42px 7px 0px;
