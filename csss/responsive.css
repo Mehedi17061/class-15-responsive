@@ -1,28 +1,208 @@
-@media (max-width:1200px) {
+@media (max-width:1292px) {
+    
+.header-section .logo {
+        width: 38%;
+    }
+    .header-section .menu {
+        text-align:left;
+        width: 60%;
+    }    
+  
+ 
+}
 
-    .container-section{
-        width: 100%;
-        margin: auto;
+
+@media (max-width:1034px) {
+    .header-section .logo {
+        width:35%;
+      
+    }
+    .header-section .menu {
+        width:64%;
+        text-align: center;
+    }    
+
+    .header-section .menu ul li a {
+        padding: 10px 8px 10px;
+    }
+
+    .header-section .logo h1 {
+        margin-left: 3px;
+      
+    }
+}
+
+
+@media (max-width:752px) {
+    .header-section .logo {
+        width: 39%;
+    }
+    .header-section .menu {
+        width: 60%;
+        text-align: center;
+    }
+
+    .header-section .menu ul li a {
+        font-size: 13px;
+    }
+
+    
+}
+
+@media (max-width:682px) {
+    .header-section .logo {
+        width:100%;
+        text-align: center;
+
+    }
+    .header-section .menu {
+        width:100%;
+        text-align: center;
+    }    
+
+    .header-section .menu ul {
+        text-align: center;
+    }
+
+    .header-section .menu ul li a {
+        font-size: 15px;
+    }
+
+    .banner-section .banner h1 {
+        font-size: 40px;
+    }
+    .banner-section .banner h3 {
+        font-size: 14px;
+    }
+    .service-section .service .group {
+        width: 39%;
+      
+    }
+}
+
+@media (max-width:515px) {
+    .banner-section {
+        padding: 45px 0px;
+        /* padding-right: 134px; */
+    }
+    .banner-section .banner h1 {
+        font-size: 34px;
+    }
+
+    .banner-section .banner h3 {
+        padding: 5px;
+    
+        font-size: 14px;
+    }
+
+    .banner-section .banner a {
+     
+        padding: 9px 22px;
+        margin: 13px 0 0;
+        font-size: 13px;
+    }
+    .service-section {
+        padding: 0;
        
     }
 
-    .header-section .logo {
+    .service-section .service p {
+        font-size: 15px;
+        width: 75%;
+        margin: auto;
+    }
+
+    .service-section .service .group {
+        width: 22%;
+        margin: 0px 7px 0px;
+        font-size: 16px;
+        padding: 5px 9px 20px;
+    }
+
+    .group h2 {
+        font-size: 21px;
+    }
+    .service-section .service .group p {
+        font-size: 14px;
+    }
+
+    .content-section .content .content-text p {
+        font-size: 15px;
+    }
+    .content-section .content .content-picture {
+        display: inline-block;
+        width: 100%;
+        /* position: absolute; */
+        /* left: 0;
+        top: 155px; */
+    }
+    .content-section .content .content-text {
+        width: 100%;
+        display: inline-block;
+        text-align: left;
+        /* position: absolute; */
+        /* left: 0; */
+        /* top: 170px; */
+        /* right: 0; */
+    }
+    .service-section .service .group {
         width: 40%;
+      
     }
 
-    .header-section .menu {
-        width: 55%;
+    .content-section {
+  
+        text-align: center;
+        padding: 5px 0px;
+       height:auto;
+       
     }
 
+    .content-section .content .content-picture {
+        display: inline-block;
+        width: 100%;
+        position: unset;
+       
+    }
+
+    .content-section .content .content-text {
+        width: 100%;
+        display:inline-block;
+        text-align: left;
+       position: initial;  
+       padding: 0px 3px ;  
+    }
+
+    .contact-section {
+        padding: 5px 0px 5px;
+    }
+    .contact-section .contact .contact-group {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 2px 68px;
+        /* position: relative; */
+    }
+    h1 {
+        font-size: 29px;
+        padding: 4px 0px;
+    }
+ 
 }
 
-@media (max-width:1100px)  and (min-width:1000px) {
-    
-    .header-section .logo {
-        width: 35%;
+@media (max-width:350px) {
+
+    .header-section .menu ul li a {
+        padding: 10px 14px 10px;
     }
 
-    .header-section .menu {
-        width: 65%;
+    .service-section .service .group {
+        width: 78%;
+        padding: 5px 9px 6px;
     }
+
+    .footer-section p {
+        padding: 14px;
+        font-size: 17px;
+    }
+    
 }
